@@ -1,6 +1,6 @@
 This is my take at building classic "Rock, Paper, Scissors" game as a website.
 
-In the process of making it, i reinforced my knowledge in both HTML and CSS, and also more deeply leaned how to use JavaScript functions and DOM.
+In the process of making it, i reinforced my knowledge in both HTML and CSS, and also more deeply learned how to use JavaScript functions and DOM.
 
 Built with:
 
