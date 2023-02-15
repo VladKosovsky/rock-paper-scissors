@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="resets.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="header-text">
+        <h1 class="header-name">Rock Paper Scissors</h1>
+        <h2 class="header-pop"></h2>
+      </header>
+      <main class="main-content">
+        <section class="main-head">
+          <h2 class="result-text-top">Try your luck in this classic game!</h2>
+          <p class="result-text-bottom">First to score 5 points - wins!</p>
+        </section>
+        <section class="score">
+          <div class="score-container">
+            <h2>Player</h2>
+            <p class="score-number" id="player-score">0</p>
+          </div>
+          <div class="score-container">
+            <p class="score-number">:</p>
+          </div>
+          <div class="score-container">
+            <h2>Computer</h2>
+            <p class="score-number" id="computer-score">0</p>
+          </div>
+        </section>
+        <section class="interactive">
+          <h2>Choose your fighter:</h2>
+          <div class="btns">
+            <button class="game-btn">
+              <img src="images\Rock.png" alt="Rock" />
+            </button>
+            <button class="game-btn">
+              <img src="images\Paper.png" alt="Paper" />
+            </button>
+            <button class="game-btn">
+              <img src="images\Scissors.png" alt="Scissors" />
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer class="attribution">
+        <p>
+          Coded by
+          <a href="https://github.com/VladKosovsky" target="_blank"
+            >Vlad Kosovsky</a
+          >
+        </p>
+      </footer>
+    </div>
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <h2 class="popup-text"></h2>
+        <button id="close-popup" class="close-popup">Play again</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
