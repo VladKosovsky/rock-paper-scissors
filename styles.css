@@ -110,7 +110,6 @@ body {
   font-family: var(--ff-main);
   font-size: var(--fs-main);
   padding: 0.9375rem;
-  min-width: 50%;
 }
 
 .main-head {
@@ -119,7 +118,7 @@ body {
 }
 
 .result-text-top {
-  font-size: var(--fs-pop);
+  font-size: var(--fs-main-h);
 }
 
 .score {
