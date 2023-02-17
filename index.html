@@ -9,16 +9,25 @@
     <link rel="stylesheet" href="resets.css" />
   </head>
   <body>
+    <!-- Modal window -->
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <h2 class="popup-text"></h2>
+        <button id="close-popup" class="close-popup">Play again</button>
+      </div>
+    </div>
+    <!-- Modal window -->
+
     <div class="page-wrapper">
       <header class="header-text">
         <h1 class="header-name">Rock Paper Scissors</h1>
         <h2 class="header-pop"></h2>
       </header>
       <main class="main-content">
-        <section class="main-head">
+        <header class="main-head">
           <h2 class="result-text-top">Try your luck in this classic game!</h2>
           <p class="result-text-bottom">First to score 5 points - wins!</p>
-        </section>
+        </header>
         <section class="score">
           <div class="score-container">
             <h2>Player</h2>
@@ -56,12 +65,7 @@
         </p>
       </footer>
     </div>
-    <div class="popup" id="popup">
-      <div class="popup-content">
-        <h2 class="popup-text"></h2>
-        <button id="close-popup" class="close-popup">Play again</button>
-      </div>
-    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
